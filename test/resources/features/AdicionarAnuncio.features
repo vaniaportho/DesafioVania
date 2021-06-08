@@ -1,0 +1,14 @@
+#language:pt
+  Funcionalidade: Adicionar um novo anúncio no site demodirectory
+    Cenario: Adicionar um novo anuncio
+      Dado que acesso o site demodirectory
+      E clica no menu "Administrador"
+      E na tela de login limpa as informacoes gravadas nos campos "email" e "senha"
+      Então informa nos campos o email "sitemgr@demodirectory.com" e senha "abc123"
+      E em seguida clica no botao "Entre"
+      E no menu lateral clica em "Conteudo" e em seguida em "Anuncios"
+      Entao na tela de inclusao clica no botao "Adicionar anuncio"
+      E ao abrir a tela seleciona no campo Modelo de anuncio a opcao "Empresa"
+      E no campo Nome do Anuncio digita "Academia Saúde e Bem Estar"
+      E no campo Categorias selecina a opcao "Esporte"
+      Entao clica no botao "Salvar alteracoes" para gravar o anuncio
